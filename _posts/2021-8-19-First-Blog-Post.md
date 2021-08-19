@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Temp
+title: Data Scientist
 ---
 
 ## What is a Data Scientist?
