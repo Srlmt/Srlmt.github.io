@@ -17,7 +17,7 @@ I think the main goal as data scienstists is to extract value from data, which c
 I believe there are two main differences between the two roles:
 
 * Even though both roles deal with data to extract information, data scientists could work with big data (> 1TB). Statisticians often work with data from experiments, studies, or surveys, which would be much smaller. 
-* 
+
 * While both roles apply statistics, the approach is different. Statisticians involved in research often have to specify the statistical methods prior to processing the data, while data scientists use more data-driven approach where they train and test the model to try to find the best one.
 
 ## My View
