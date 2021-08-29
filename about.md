@@ -18,6 +18,8 @@ I was born in Taiwan and raised in Los Angeles, California. I did my undergrad a
 
 I like to play the piano and I'm also learning how to produce music. I also have two cats so I spend time playing with them. 
 
+
+
 ## Contact me
 
 [cchen36@ncsu.edu](mailto:cchen36@ncsu.edu)
