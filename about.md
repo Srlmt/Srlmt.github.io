@@ -4,6 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
+![image](https://raw.githubusercontent.com/Srlmt/Srlmt.github.io/master/images/about_me.jpg)
+
 Some information about you!
 
 ### More Information
