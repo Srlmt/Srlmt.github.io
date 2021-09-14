@@ -1,7 +1,5 @@
 Programming Background
 ================
-Joey Chen
-9/13/2021
 
 ## My Programming Background
 
