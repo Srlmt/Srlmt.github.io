@@ -1,7 +1,5 @@
-Programming Background
-================
 
-## My Programming Background
+## My Experience with SAS vs R
 
 I have had years of programming experience in SAS before I learned R.
 What I like about R is that it is very flexible. For example, you can
