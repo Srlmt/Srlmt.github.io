@@ -1,0 +1,17 @@
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path = "../images/")
+```
+
+
+```{r, include = FALSE, eval=FALSE}
+# Run this part in the console to render the output
+rmarkdown::render("_Rmd/2021-10-6-Project-1-Relfection.Rmd", 
+          output_format = "github_document", 
+          output_dir = "_posts/",
+          output_options = list(html_preview = FALSE)
+          )
+```
+
+Test
