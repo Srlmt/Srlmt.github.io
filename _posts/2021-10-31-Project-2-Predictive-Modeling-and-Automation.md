@@ -4,26 +4,26 @@
 For this project we worked as a group of two to construct predictive
 models and we utilized automation in R-Markdown to generate six
 different reports. We used the [Online News Popularity Data
-Set](https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity),
-which has 61 attributes (58 predictive attributes, 2 non-predictive, and
-1 response). The response variable is `shares`, which is the number of
-shares for a given article, but after doing analysis on the data, we
-decided to fit the models on `log(shares)`, which had a much better fit
-because there were some extreme values in `shares`.
+Set](https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity)
+from the UCI Machine Learning Repository, which has 61 attributes (58
+predictive attributes, 2 non-predictive, and 1 response). The response
+variable we want to predict is `shares`, which is the number of shares
+for a given article, but after doing analysis on the data, we decided to
+fit the models on `log(shares)`, which had a much better fit because
+there were some extreme values in `shares`.
 
-For the process, We first did exploratory data analysis, then
-constructed 2 linear models and 2 ensemble tree-based models, and then
-we compared the models and chose the best one for the test set. We used
-automation in R-markdown to partition the data to six different data
-channels and went through the entire process to generate six individual
-documents.
+For the process, We first read in the data and did exploratory data
+analysis, then constructed 2 linear models and 2 ensemble tree-based
+models using the training set, and then we compared the models and chose
+the best one for the test set. We used automation in R-markdown to
+partition the data to six different data channels and went through the
+entire process to generate six individual documents.
 
 # Links
 
 Link to Project 2 page repo: <https://srlmt.github.io/Project-2/>
 
-Link to the Project 2 Github repo:
-<https://github.com/Srlmt/Crypto-API-Vignette>
+Link to the Project 2 Github repo: <https://github.com/Srlmt/Project-2>
 
 # Project Reflection
 
@@ -63,7 +63,7 @@ prediction.
 
 ``` r
 # Run this part in the console to render the output
-rmarkdown::render("_Rmd/2021-10-31-Project-2-Reflection.Rmd", 
+rmarkdown::render("_Rmd/2021-10-31-Project-2-Predictive-Modeling-and-Automation.Rmd", 
           output_format = "github_document", 
           output_dir = "_posts/",
           output_options = list(html_preview = FALSE)
