@@ -1,6 +1,4 @@
----
-title: "Project 2 - Predictive Modeling and Automation"
----
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.path = "../images/")
 ```

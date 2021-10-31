@@ -1,5 +1,3 @@
-Project 2 - Predictive Modeling and Automation
-================
 
 # Project Outline
 
