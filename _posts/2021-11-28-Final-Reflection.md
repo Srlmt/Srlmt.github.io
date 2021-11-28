@@ -1,0 +1,39 @@
+
+# My Perception of Data Scientists
+
+My initial perception of data scientists is that they apply statistical
+knowledge and programming expertise to extract information from data and
+solve business problems. While I still believe that to be true, I found
+the data science process to be more complicated than I had imagined. I
+feel there is a lack of standard practice compared to some of the other
+statistical disciplines, which makes some of the tasks more difficult
+such as choosing the parameters or picking the best model.
+
+# Current Thoughts of R
+
+Having used SAS for more than 5 years, I find R to be very flexible and
+easy to use. For data science, there are so many packages available that
+makes the workflow smooth and intuitive. Ggplot is very versatile and
+allows me to create different kinds of plots with flexible formatting.
+Also, Shiny apps provide a good way for users to interact with the data.
+I will continue to use R for my work and personal interests and apply
+what I have learned from this course.
+
+# What I am going to do Differently
+
+We have done a lot of Exploratory Data Analysis (EDA) in this course,
+and it really makes sense to me to get more insight of the dataset
+before proceeding. I will be doing more EDA in the future when I receive
+data so I can better understand the data before performing core tasks
+such as model fitting. I can also see myself creating Shiny apps to
+allow myself and collaborators to explore and interact with different
+data.
+
+``` r
+# Run this part in the console to render the output
+rmarkdown::render("_Rmd/2021-11-28-Final-Reflection.Rmd", 
+          output_format = "github_document", 
+          output_dir = "_posts/",
+          output_options = list(html_preview = FALSE)
+          )
+```
