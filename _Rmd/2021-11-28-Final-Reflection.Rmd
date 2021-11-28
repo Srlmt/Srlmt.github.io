@@ -4,6 +4,16 @@ knitr::opts_chunk$set(echo = TRUE, fig.path = "../images/")
 ```
 
 
+```{r, echo = FALSE, eval=FALSE}
+# Run this part in the console to render the output
+rmarkdown::render("_Rmd/2021-11-28-Final-Reflection.Rmd", 
+          output_format = "github_document", 
+          output_dir = "_posts/",
+          output_options = list(html_preview = FALSE)
+          )
+```
+
+
 # My Perception of Data Scientists
 
 My initial perception of data scientists is that they apply statistical knowledge and programming expertise to extract information from data and solve business problems. While I still believe that to be true, I found the data science process to be more complicated than I had imagined. I feel there is a lack of standard practice compared to some of the other statistical disciplines, which makes some of the tasks more difficult such as choosing the parameters or picking the best model. 
@@ -20,13 +30,4 @@ We have done a lot of Exploratory Data Analysis (EDA) in this course, and it rea
 
 
 
-
-```{r, echo = TRUE, eval=FALSE}
-# Run this part in the console to render the output
-rmarkdown::render("_Rmd/2021-11-28-Final-Reflection.Rmd", 
-          output_format = "github_document", 
-          output_dir = "_posts/",
-          output_options = list(html_preview = FALSE)
-          )
-```
 

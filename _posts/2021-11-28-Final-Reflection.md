@@ -28,12 +28,3 @@ data so I can better understand the data before performing core tasks
 such as model fitting. I can also see myself creating Shiny apps to
 allow myself and collaborators to explore and interact with different
 data.
-
-``` r
-# Run this part in the console to render the output
-rmarkdown::render("_Rmd/2021-11-28-Final-Reflection.Rmd", 
-          output_format = "github_document", 
-          output_dir = "_posts/",
-          output_options = list(html_preview = FALSE)
-          )
-```
